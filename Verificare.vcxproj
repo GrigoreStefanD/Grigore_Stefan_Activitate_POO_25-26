@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Verificare.cpp" />
+    <ClCompile Include="GrigoreStefan_ActivitatePOO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LogisticaFaza1.cpp" />

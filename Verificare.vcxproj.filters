@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Verificare.cpp">
+    <ClCompile Include="GrigoreStefan_ActivitatePOO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
