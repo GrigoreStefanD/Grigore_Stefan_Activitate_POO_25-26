@@ -24,6 +24,7 @@
     <ProjectGuid>{bf0fe0b0-f171-499c-b619-61b46fcc6312}</ProjectGuid>
     <RootNamespace>Verificare</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GrigoreStefan_ActivitatePOO</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
