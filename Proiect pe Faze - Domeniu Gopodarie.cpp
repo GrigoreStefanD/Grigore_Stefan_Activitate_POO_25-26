@@ -32,6 +32,7 @@ public:
         totalCase++;
     }
 
+
     Casa(string prop, int cam) : tipConstructie(" Zidarie ")   
     {
         proprietar = prop; 
@@ -39,6 +40,8 @@ public:
          etaj = new int(1);
         totalCase++; 
     } 
+
+
 
     Casa(string prop, int cam, string tip, int et) : tipConstructie(tip)   
 
@@ -48,6 +51,7 @@ public:
         etaj = new int(et);   
         totalCase++; 
     } 
+
 
     static void calculeazaSuprafataTotala(int suprafataPerCasa) 
     {
@@ -71,7 +75,8 @@ public:
 
 
 };
-   
+    
+
 int Casa::totalCase = 0;
 
   
@@ -213,6 +218,9 @@ int Animale::totalTurme = 0;
 
 
 
+
+
+
 int main()   
 
 {
@@ -246,7 +254,7 @@ int main()
 
     cout << endl;
 
-    // 0biecte ANIMALE
+    //   Obiecte ANIMALE
 
      Animale a1;
 
@@ -254,7 +262,7 @@ int main()
     Animale a3("Vaca", 3, "Siloz", 5);
 
     a1.afiseaza();
-     a2.afiseaza();
+    a2.afiseaza();
     a3.afiseaza();
 
     Animale::calculeazaCantitateHrana(10);
@@ -262,3 +270,8 @@ int main()
 
     return 0;
 }
+    
+
+
+
+ 
